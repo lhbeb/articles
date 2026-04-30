@@ -1,0 +1,38 @@
+{
+  "export_type": "comparemag-article",
+  "export_version": 1,
+  "exported_at": "2026-04-29T07:41:54.337Z",
+  "article": {
+    "id": "240acaf6-0d6e-4bdd-a409-42c598472f7b",
+    "created_at": "2026-04-20T01:00:26.142831+00:00",
+    "updated_at": "2026-04-21T04:41:59.119933+00:00",
+    "published_at": "2026-04-20T01:04:46.071+00:00",
+    "editor_settings": {
+      "originalSlug": "is-canon-g7x-mirrorless",
+      "slug": "is-canon-g7x-mirrorless",
+      "title": "The Truth About the Canon G7X, Is It Actually a Mirrorless Camera?",
+      "content": "<h2>1. The Mirrorless Myth</h2>\n<p>Because of its premium build and high image quality, a lot of beginners assume the Canon G7X Mark III is a mirrorless camera. Let's clear this up immediately: <strong>It is not a mirrorless camera.</strong> It is a premium compact point-and-shoot camera.</p>\n<h2>2. What's the Difference?</h2>\n<p>Mirrorless interchangeable-lens cameras (MILC) allow you to remove the lens and swap it for another—like putting on a 50mm portrait lens, then switching to a 200mm zoom. The Canon G7X series has a fixed, permanently attached lens.</p>\n<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@rominagafur/video/7427894763598236970\" data-video-id=\"7427894763598236970\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@rominagafur\" href=\"https://www.tiktok.com/@rominagafur?refer=embed\">@rominagafur</a> Canon g7x settings I always use to take pictures. This works great for both Mark II and Mark III <a title=\"g7x\" target=\"_blank\" href=\"https://www.tiktok.com/tag/g7x?refer=embed\">#g7x</a></section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>\n<h2>3. Why the Confusion?</h2>\n<p>The confusion stems from its 1-inch sensor. Most point-and-shoots have tiny sensors that are barely larger than a smartphone. The G7X uses a massive 1-inch sensor, giving it depth-of-field (background blur) and low-light capabilities that rival budget mirrorless cameras.</p>\n<h2>4. Is \"Compact\" Bad?</h2>\n<p>Not at all. In fact, many professional photographers buy the G7X specifically because it is NOT an interchangeable mirrorless camera. You don't have to carry a bag of heavy lenses. You just slide it into your pocket and still get exceptional raw photos and 4K video.</p>\n",
+      "html_output": "<h2>1. The Mirrorless Myth</h2>\n<p>Because of its premium build and high image quality, a lot of beginners assume the Canon G7X Mark III is a mirrorless camera. Let's clear this up immediately: <strong>It is not a mirrorless camera.</strong> It is a premium compact point-and-shoot camera.</p>\n<h2>2. What's the Difference?</h2>\n<p>Mirrorless interchangeable-lens cameras (MILC) allow you to remove the lens and swap it for another—like putting on a 50mm portrait lens, then switching to a 200mm zoom. The Canon G7X series has a fixed, permanently attached lens.</p>\n<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@rominagafur/video/7427894763598236970\" data-video-id=\"7427894763598236970\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@rominagafur\" href=\"https://www.tiktok.com/@rominagafur?refer=embed\">@rominagafur</a> Canon g7x settings I always use to take pictures. This works great for both Mark II and Mark III <a title=\"g7x\" target=\"_blank\" href=\"https://www.tiktok.com/tag/g7x?refer=embed\">#g7x</a></section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>\n<h2>3. Why the Confusion?</h2>\n<p>The confusion stems from its 1-inch sensor. Most point-and-shoots have tiny sensors that are barely larger than a smartphone. The G7X uses a massive 1-inch sensor, giving it depth-of-field (background blur) and low-light capabilities that rival budget mirrorless cameras.</p>\n<h2>4. Is \"Compact\" Bad?</h2>\n<p>Not at all. In fact, many professional photographers buy the G7X specifically because it is NOT an interchangeable mirrorless camera. You don't have to carry a bag of heavy lenses. You just slide it into your pocket and still get exceptional raw photos and 4K video.</p>\n",
+      "author": "Roderick Scott",
+      "category": "Cameras",
+      "image_url": "https://fgkvrbdpmwyfjvpubzxn.supabase.co/storage/v1/object/public/article_images/articles/1776664154936-invlll.jpeg",
+      "read_time": "6 min read",
+      "published": true,
+      "article_type": "manual",
+      "generation_status": "published",
+      "listed_by": "mehdi",
+      "meta_description": "Everyone seems to be calling the Canon G7X Mark III a mirrorless camera online. They are completely wrong.",
+      "meta_keywords": "cameras, truth, about, canon, actually, mirrorless, camera",
+      "focus_keyword": "is canon g7x mirrorless",
+      "og_title": "The Truth About the Canon G7X: Is It Actually a Mirrorless Camera?",
+      "og_description": "Everyone seems to be calling the Canon G7X Mark III a mirrorless camera online. They are completely wrong.",
+      "og_image": "https://fgkvrbdpmwyfjvpubzxn.supabase.co/storage/v1/object/public/article_images/articles/1776664154936-invlll.jpeg",
+      "canonical_url": null,
+      "twitter_card": null,
+      "is_featured": false,
+      "programmatic_template": null,
+      "programmatic_key": null,
+      "programmatic_data": null
+    }
+  }
+}

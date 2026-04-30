@@ -1,0 +1,38 @@
+{
+  "export_type": "comparemag-article",
+  "export_version": 1,
+  "exported_at": "2026-04-29T07:41:44.537Z",
+  "article": {
+    "id": "dfb5c321-e811-4f99-82e5-acab9e62e07c",
+    "created_at": "2026-04-20T01:00:28.89784+00:00",
+    "updated_at": "2026-04-22T04:43:37.304128+00:00",
+    "published_at": "2026-04-20T01:04:48.103+00:00",
+    "editor_settings": {
+      "originalSlug": "is-canon-g7x-a-dslr",
+      "slug": "is-canon-g7x-a-dslr",
+      "title": "Before You Buy: Is the Canon G7X a DSLR Replacement?",
+      "content": "<h2>1. Defining the Terms</h2>\n<p>Many beginners refer to any \"nice\" camera that isn't a phone as a DSLR. The Canon G7X is <strong>not</strong> a DSLR (Digital Single-Lens Reflex). A DSLR utilizes internal mirrors to reflect light up into an optical viewfinder. The G7X is entirely digital with no internal mirrors, making it a compact camera.</p>\n<h2>2. Can It Replace a DSLR?</h2>\n<p>For 80% of normal consumers: Yes, it absolutely can. Most people buy entry-level DSLRs like the Canon Rebel series, leave the kit lens on permanently, and never change out the glass. In that scenario, the G7X actually produces drastically <em>better</em> images.</p>\n<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@rominagafur/video/7427894763598236970\" data-video-id=\"7427894763598236970\" style=\"max-width: 605px;min-width: 325px;\"> <section> <a target=\"_blank\" title=\"@rominagafur\" href=\"https://www.tiktok.com/@rominagafur?refer=embed\">@rominagafur</a> <a title=\"photography\" target=\"_blank\" href=\"https://www.tiktok.com/tag/photography?refer=embed\">#photography</a> </section> </blockquote><script async=\"\" src=\"https://www.tiktok.com/embed.js\"></script> \n<h2>3. The Lens Superiority</h2>\n<p>A standard DSLR kit lens has an aperture of f/3.5 - f/5.6. This is terrible for dark rooms. The fixed lens permanently welded to the front of the G7X is an f/1.8 - f/2.8 lens. That means it lets in significantly more light than a beginner DSLR kit, resulting in much cleaner photos.</p><p><br></p>\n\n<h2>4. When You Need the Real Thing</h2>\n<p>If you want to take photos of birds in flight from a hundred yards away, or macro shots of insects, the G7X will fail you. Those scenarios require a DSLR or Mirrorless system so you can attach massive telephoto or specialized macro lenses.</p>\n",
+      "html_output": "<h2>1. Defining the Terms</h2>\n<p>Many beginners refer to any \"nice\" camera that isn't a phone as a DSLR. The Canon G7X is <strong>not</strong> a DSLR (Digital Single-Lens Reflex). A DSLR utilizes internal mirrors to reflect light up into an optical viewfinder. The G7X is entirely digital with no internal mirrors, making it a compact camera.</p>\n<h2>2. Can It Replace a DSLR?</h2>\n<p>For 80% of normal consumers: Yes, it absolutely can. Most people buy entry-level DSLRs like the Canon Rebel series, leave the kit lens on permanently, and never change out the glass. In that scenario, the G7X actually produces drastically <em>better</em> images.</p>\n<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@rominagafur/video/7427894763598236970\" data-video-id=\"7427894763598236970\" style=\"max-width: 605px;min-width: 325px;\"> <section> <a target=\"_blank\" title=\"@rominagafur\" href=\"https://www.tiktok.com/@rominagafur?refer=embed\">@rominagafur</a> <a title=\"photography\" target=\"_blank\" href=\"https://www.tiktok.com/tag/photography?refer=embed\">#photography</a> </section> </blockquote><script async=\"\" src=\"https://www.tiktok.com/embed.js\"></script> \n<h2>3. The Lens Superiority</h2>\n<p>A standard DSLR kit lens has an aperture of f/3.5 - f/5.6. This is terrible for dark rooms. The fixed lens permanently welded to the front of the G7X is an f/1.8 - f/2.8 lens. That means it lets in significantly more light than a beginner DSLR kit, resulting in much cleaner photos.</p><p><br></p>\n\n<h2>4. When You Need the Real Thing</h2>\n<p>If you want to take photos of birds in flight from a hundred yards away, or macro shots of insects, the G7X will fail you. Those scenarios require a DSLR or Mirrorless system so you can attach massive telephoto or specialized macro lenses.</p>\n",
+      "author": "Roderick Scott",
+      "category": "Cameras",
+      "image_url": "https://fgkvrbdpmwyfjvpubzxn.supabase.co/storage/v1/object/public/article_images/articles/1776663742025-tn20r8.jpeg",
+      "read_time": "6 min read",
+      "published": true,
+      "article_type": "manual",
+      "generation_status": "published",
+      "listed_by": "mehdi",
+      "meta_description": "I see dozens of beginners asking if the Canon G7X is a good beginner DSLR. No, it isn't, and understanding why could save you hundreds of dollars.",
+      "meta_keywords": "cameras, before, canon, dslr, replacement",
+      "focus_keyword": "is canon g7x a dslr",
+      "og_title": "Before You Buy: Is the Canon G7X a DSLR Replacement?",
+      "og_description": "I see dozens of beginners asking if the Canon G7X is a good beginner DSLR. No, it isn't, and understanding why could save you hundreds of dollars.",
+      "og_image": "https://fgkvrbdpmwyfjvpubzxn.supabase.co/storage/v1/object/public/article_images/articles/1776663742025-tn20r8.jpeg",
+      "canonical_url": null,
+      "twitter_card": null,
+      "is_featured": false,
+      "programmatic_template": null,
+      "programmatic_key": null,
+      "programmatic_data": null
+    }
+  }
+}

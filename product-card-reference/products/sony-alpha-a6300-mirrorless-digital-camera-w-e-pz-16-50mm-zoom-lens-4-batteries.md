@@ -1,0 +1,25 @@
+# Sony Alpha a6300 Mirrorless Digital Camera w/ E PZ 16-50mm Zoom Lens 4 Batteries
+
+- Product ID: `5fee8e37-37b2-4c95-9388-bb8fecc392bd`
+- Slug: `sony-alpha-a6300-mirrorless-digital-camera-w-e-pz-16-50mm-zoom-lens-4-batteries`
+- Article shortcode: `[product-card:sony-alpha-a6300-mirrorless-digital-camera-w-e-pz-16-50mm-zoom-lens-4-batteries]`
+- Published: `true`
+- Brand: `sony`
+- Listed by: `yassine`
+- Price text: `$449.00`
+- Rating text: ``
+- Badge text: `Smart Choice`
+- External URL: https://www.deeldepot.com/products/sony-alpha-a6300-mirrorless-digital-camera-w-e-pz-16-50mm-zoom-lens-4-batteries
+- Image URL: https://vfuedgrheyncotoxseos.supabase.co/storage/v1/object/public/product-images/sony-alpha-a6300-mirrorless-digital-camera-w-e-pz-16-50mm-zoom-lens-4-batteries/img1.jpeg
+- Created at: `2026-04-22T04:23:45.081382+00:00`
+- Updated at: `2026-04-22T04:23:45.081382+00:00`
+
+## Short Description
+
+Clean setup, ready to shoot. This Sony a6300 comes with the versatile 16-50mm po
+
+## Specs JSON
+
+```json
+null
+```
