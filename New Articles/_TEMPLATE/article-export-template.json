@@ -1,0 +1,38 @@
+{
+  "export_type": "comparemag-article",
+  "export_version": 1,
+  "exported_at": "YYYY-MM-DDTHH:MM:SS.SSSZ",
+  "article": {
+    "id": "uuid-here",
+    "created_at": "YYYY-MM-DDTHH:MM:SS.SSSZ",
+    "updated_at": "YYYY-MM-DDTHH:MM:SS.SSSZ",
+    "published_at": "YYYY-MM-DDTHH:MM:SS.SSSZ",
+    "editor_settings": {
+      "originalSlug": "article-slug-here",
+      "slug": "article-slug-here",
+      "title": "Article Title Here",
+      "content": "<h1>Article HTML content here</h1>",
+      "html_output": "<h1>Compiled article HTML output here</h1>",
+      "author": "Random Author Placeholder",
+      "category": "Category Here",
+      "image_url": "https://example.com/image.jpg",
+      "read_time": "5 min read",
+      "published": true,
+      "article_type": "manual",
+      "generation_status": "published",
+      "listed_by": "Random Editor Placeholder",
+      "meta_description": "SEO meta description here.",
+      "meta_keywords": "keyword one, keyword two, keyword three",
+      "focus_keyword": "Primary Keyword Here",
+      "og_title": "Open Graph Title Here",
+      "og_description": "Open Graph description here.",
+      "og_image": "https://example.com/og-image.jpg",
+      "canonical_url": null,
+      "twitter_card": null,
+      "is_featured": false,
+      "programmatic_template": null,
+      "programmatic_key": null,
+      "programmatic_data": null
+    }
+  }
+}
