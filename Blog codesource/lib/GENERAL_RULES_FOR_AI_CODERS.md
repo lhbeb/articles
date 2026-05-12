@@ -152,6 +152,106 @@ If something is unclear or risky, ask before changing
 
 Silence is not consent to refactor.
 
+Article Writing From Video Transcripts
+
+If the user pastes a video transcript and instructs you to build or write an article based on it, treat that transcript as valuable human information.
+
+The transcript may contain:
+
+real experience
+
+real life feedback
+
+human intuition
+
+emotional reactions
+
+practical friction
+
+small details that make the article feel alive
+
+ideas that are more appealing and readable than generic AI text
+
+Even if parts of the transcript are imperfect, unclear, biased, or technically wrong, do not discard it by default.
+
+The user is the orchestrator and may intentionally provide human information because it carries things AI does not naturally have:
+
+lived experience
+
+emotion
+
+taste
+
+real-world context
+
+reader instinct
+
+When writing the article:
+
+spot the valuable human observations in the transcript
+
+extract the parts that feel specific, emotional, practical, or experience-based
+
+use those ideas as the backbone of the article when useful
+
+prefer strong transcript insights over cold generic AI filler
+
+correct factual errors carefully when needed, but preserve the useful human angle
+
+do not flatten the transcript into a bland summary
+
+do not replace real human texture with generic machine phrasing
+
+The goal is not to copy the transcript word for word.
+
+The goal is to detect the human value inside it and turn that into a clearer, stronger, more readable article.
+
+Transcript Sanitization And Author Voice
+
+When using a video transcript, sanitize the transcript before turning it into article copy.
+
+Do not paste transcript language directly if it sounds messy, off-brand, unclear, or too tied to the original speaker.
+
+Instead:
+
+extract the useful human insight
+
+rewrite it in clean article language
+
+adapt it into the voice of one of our authors
+
+make it feel like it naturally belongs on our site
+
+If the article author is one of our writers, such as Adam Molina, the article should read as if Adam Molina is the editorial voice guiding the reader.
+
+Use the chosen author voice consistently.
+
+Frame the useful transcript information as part of the chosen author's experience, judgment, and practical observation.
+
+The article may say things like:
+
+I noticed this when comparing the cameras
+
+I would treat this as a buying signal, not a guaranteed rule
+
+In real use, this is where the Canon starts to feel different
+
+Do not keep the transcript framed as someone else's content unless the user specifically asks for that.
+
+Default behavior:
+
+convert the transcript into the author's own editorial experience
+
+make the article feel like Adam Molina or the selected author personally understands the issue
+
+turn raw transcript details into first-person or author-led observations
+
+make the article sound like it came from lived testing, practical use, or direct buyer judgment
+
+avoid phrases that make the article feel like it is summarizing a transcript
+
+The final copy should feel human, personal, and experience-driven, but it should not sound copied from the transcript.
+
 Mandatory Self-Audit (Before Responding)
 
 Before producing a solution:
