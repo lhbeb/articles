@@ -175,6 +175,24 @@ For article topics:
 
 Avoid tiny product images.
 
+## Price Tag Rule
+
+If the article is about pricing, price comparison, discount, refurbished price, resale price, MSRP, Amazon price, or best current price, the thumbnail should include a visible price tag or price cue.
+
+Good examples:
+
+- `$679?`
+- `$849 MSRP`
+- `$1,299?`
+- `LOWEST PRICE?`
+- `TOO HIGH?`
+
+Keep the price cue short and readable.
+
+For articles that are not mainly about price, do not spam price tags.
+
+Only use a price tag on non-pricing articles if the price is a major reason someone would click.
+
 ## Layout Rules
 
 Keep one dominant focal point.
@@ -241,10 +259,28 @@ Good Canon G7X examples:
 
 ## Attached Image Workflow
 
-The usual thumbnail generation workflow uses two attached references:
+The usual thumbnail generation workflow may use multiple attached references.
 
-1. The product image.
-2. The editor or writer face image.
+Sometimes the user may attach more than three images plus the writer/editor image.
+
+The writer/editor image is the identity reference.
+
+Identity lock applies only to the writer/editor image.
+
+Other attached images may be:
+
+- product images
+- example results from a tutorial
+- before/after examples
+- screenshots from a video
+- reference photos showing the desired look
+- visual proof for how-to articles
+
+Use those extra images as subject, product, style, or result references.
+
+Do not apply identity lock to those extra images unless the user explicitly says one of them is also the writer/editor identity image.
+
+When multiple attached images are provided, the thumbnail prompt should clearly say which image is for face identity and which images are for product/result/reference visuals.
 
 When generating thumbnails from attached images, preserve the identity of the person.
 
@@ -284,7 +320,7 @@ Keep the product recognizable and close to the attached product photo.
 Use this kind of prompt when generating thumbnails:
 
 ```text
-identity lock, keep the same facial structure, same features, same face identity. Generate a bold YouTube-style thumbnail for this person for an article talking about “[ARTICLE TITLE VARIABLE]”. Use the attached product image clearly in the thumbnail. Keep the product recognizable. Use a dark high-contrast tech background, strong blue/red lighting, sharp cutout style, dramatic buyer-decision mood. Not much text in the thumbnail, only a short readable hook.
+identity lock, keep the same facial structure, same features, same face identity. Generate a bold YouTube-style thumbnail for this person for an article talking about “[ARTICLE TITLE VARIABLE]”. Use the attached product image clearly in the thumbnail. Keep the product recognizable. Use graphics that match the article subject, or use a relevant blurred background if no specific graphic is needed. Use a dark high-contrast tech background, strong blue/red lighting, sharp cutout style, dramatic buyer-decision mood. Not much text in the thumbnail, only a short readable hook.
 ```
 
 `[ARTICLE TITLE VARIABLE]` should be replaced with the actual article title each time.
@@ -306,6 +342,14 @@ identity lock, keep the same facial structure, same features, same face identity
 When the prompt says "not much text", use only a short hook.
 
 Do not put the full article title on the thumbnail.
+
+It is not necessary for a thumbnail to contain title text. Less text is usually better.
+
+The thumbnail's job is to catch attention before the reader sees the title. Use the face, product, price cue, comparison cue, question mark, warning color, or relevant scene to create curiosity.
+
+Graphics must be related to the article subject. If there is no useful related graphic, use a clean blurred tech or shopping background instead.
+
+Do not add unrelated objects, icons, logos, decorations, or random graphics just to fill space.
 
 For example, if the article title variable is:
 

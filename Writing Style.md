@@ -299,6 +299,42 @@ If information is unclear, incomplete, or unstable, research more before writing
 
 Writing without verification is strongly prohibited.
 
+## 20. Use Provided SEO Research Heavily And Smartly
+
+When the user asks for a set of articles about a product and provides mass SEO research data, treat that data as core planning material.
+
+The SEO research is not decoration.
+
+It should shape:
+
+- article angles
+- headings
+- answer sections
+- comparison points
+- buying advice
+- FAQ-style explanations
+- exact questions readers are searching
+- normal search queries people type into Google
+- related searches and long-tail keywords
+
+Use the provided keyword and query data heavily, but do it naturally.
+
+Do not dump keywords randomly.
+
+Do not repeat the same phrase until it feels like spam.
+
+Do not make the article sound like keyword stuffing.
+
+Instead, turn search data into useful reader answers.
+
+If the SEO data includes questions, the article should answer those questions clearly inside the body.
+
+If the SEO data includes normal buyer queries, the article should cover those topics in natural sections.
+
+If the SEO data shows repeated concerns, those concerns should become real editorial points, not hidden keywords.
+
+The goal is to help the article get indexed by matching real search intent while still sounding like a human wrote it for a reader.
+
 ## Final Enforcement
 
 Keep it:
@@ -311,7 +347,7 @@ Every sentence must earn its place.
 
 If a sentence does not add value, remove it.
 
-## 20. Default Listed By Value
+## 21. Default Listed By Value
 
 For this workspace setup, always use:
 
@@ -319,7 +355,7 @@ For this workspace setup, always use:
 
 This should be treated as the default value for newly generated article export files unless the user explicitly asks for a different value.
 
-## 21. Product Card Insert Filter
+## 22. Product Card Insert Filter
 
 For this project, when inserting a new product card inside an article, only use product cards where:
 
@@ -331,7 +367,7 @@ Do not insert product cards listed by other names unless the user explicitly ask
 
 Before embedding a product card, verify the product's `listed_by` value from the local product reference files or the latest DB pull.
 
-## 22. Product Card Rotation Rule
+## 23. Product Card Rotation Rule
 
 When multiple relevant ABDO-listed product cards exist for the same article topic, do not keep reusing the same product card by default.
 
