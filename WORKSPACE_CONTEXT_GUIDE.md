@@ -48,6 +48,10 @@ Each product card is identified by a slug and embedded with this exact format:
 
 `[product-card:slug]`
 
+Any relevant product card stored in the local `products/` folder may be used in articles.
+
+There is no longer an `ABDO-only` restriction for product-card inserts.
+
 ### Product Rotation Rule
 
 Do not keep inserting the same product card across every new article when multiple relevant product cards exist for the same item or topic.

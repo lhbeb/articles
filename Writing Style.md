@@ -357,19 +357,17 @@ This should be treated as the default value for newly generated article export f
 
 ## 22. Product Card Insert Filter
 
-For this project, when inserting a new product card inside an article, only use product cards where:
+For this project, when inserting a new product card inside an article, you may use any relevant product card that exists in the local `products/` library.
 
-- `listed_by`: `ABDO`
+This replaces the old `ABDO-only` restriction.
 
-This is a strict selection rule for article embeds.
+Use the best topical match available from the local product reference files or the latest product pull.
 
-Do not insert product cards listed by other names unless the user explicitly asks you to do that.
-
-Before embedding a product card, verify the product's `listed_by` value from the local product reference files or the latest DB pull.
+Do not force an unrelated product card into an article just because it exists.
 
 ## 23. Product Card Rotation Rule
 
-When multiple relevant ABDO-listed product cards exist for the same article topic, do not keep reusing the same product card by default.
+When multiple relevant product cards exist for the same article topic, do not keep reusing the same product card by default.
 
 You must:
 
