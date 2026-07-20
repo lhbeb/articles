@@ -103,6 +103,7 @@ export default function ProductsPage() {
       p.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
       p.slug.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (p.brand && p.brand.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (p.listed_by && p.listed_by.toLowerCase().includes(searchQuery.toLowerCase())) ||
       (getAffiliateDomain(p.external_url)?.includes(searchQuery.toLowerCase()) ?? false)
     ) &&
     (domainFilter === 'all' || getAffiliateDomain(p.external_url) === domainFilter) &&

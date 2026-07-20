@@ -46,6 +46,7 @@ export async function PUT(
       rating_text: data.rating_text || null,
       badge_text: data.badge_text || null,
       specs: data.specs || null,
+      listed_by: data.listed_by || null,
       published: data.published || false,
     })
 

@@ -40,6 +40,7 @@ interface ProductCardEditorProps {
     rating_text: string | null
     badge_text: string | null
     specs: any | null
+    listed_by: string | null
     published: boolean
   }
   mode: 'create' | 'edit'
@@ -149,6 +150,7 @@ export function ProductCardEditor({ initialData, mode }: ProductCardEditorProps)
   const [ratingText, setRatingText] = useState(initialData?.rating_text || '')
   const [badgeText, setBadgeText] = useState(initialData?.badge_text || 'Smart Choice')
   const [imageUrl, setImageUrl] = useState(initialData?.image_url || '')
+  const [listedBy, setListedBy] = useState(initialData?.listed_by || '')
 
   // Keep legacy `condition` keys from reappearing in the editor.
   const buildInitialSpecs = () => {
@@ -323,7 +325,7 @@ export function ProductCardEditor({ initialData, mode }: ProductCardEditorProps)
         cta_label: ctaLabel || 'Check Price', external_url: normalizedExternalUrl,
         price_text: normalizedPriceText || null, rating_text: ratingText || null,
         badge_text: badgeText || null, image_url: imageUrl || null,
-        specs: parsedSpecs, published: publish,
+        specs: parsedSpecs, listed_by: listedBy.trim() || null, published: publish,
       }
       const response = await fetch(mode === 'create' ? '/api/products' : `/api/products/${initialData?.slug}`, {
         method: mode === 'create' ? 'POST' : 'PUT',
@@ -612,6 +614,17 @@ export function ProductCardEditor({ initialData, mode }: ProductCardEditorProps)
                 <span className={initialData?.published ? 'status-published' : 'status-draft'}>
                     {initialData?.published ? 'Published' : 'Draft'}
                 </span>
+             </div>
+
+             <div className="space-y-1.5">
+                <Label className="text-[10px] text-slate-400 uppercase tracking-[0.14em]">Listed By</Label>
+                <Input
+                  value={listedBy}
+                  onChange={(e) => setListedBy(e.target.value)}
+                  placeholder="admin name"
+                  className="h-9 rounded-xl border-slate-200 bg-slate-50 text-xs font-semibold text-slate-700"
+                />
+                <p className="text-[10px] text-slate-400">Internal admin/uploader name shown in the product list.</p>
              </div>
              
              <div className="space-y-2 pt-1">

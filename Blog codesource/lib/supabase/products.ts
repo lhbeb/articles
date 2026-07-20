@@ -3,7 +3,7 @@ import { createClient } from './server'
 import type { ProductCard, ProductCardInsert, ProductCardUpdate } from './types'
 
 const PRODUCT_OVERVIEW_SELECT =
-  'id, slug, title, brand, image_url, external_url, price_text, rating_text, published, created_at, updated_at'
+  'id, slug, title, brand, image_url, external_url, price_text, rating_text, published, listed_by, created_at, updated_at'
 
 export async function getAllProductsOverview(publishedOnly: boolean = false) {
   try {

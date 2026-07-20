@@ -182,12 +182,10 @@ function ProductList({ products, onDelete, onBulkDelete }: { products: ProductCa
                             {affiliateDomain}
                           </span>
                         ) : null}
-                        {product.listed_by && (
-                          <div className="inline-flex items-center gap-1.5 ml-1">
-                            <UserCog className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
-                            <span>{formatInternalOwner(product.listed_by)}</span>
-                          </div>
-                        )}
+                        <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 font-medium text-slate-600">
+                          <UserCog className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
+                          <span>Listed by: {product.listed_by ? formatInternalOwner(product.listed_by) : 'Unassigned'}</span>
+                        </span>
                       </div>
                       <div className="mt-2">
                          <code className="inline-block max-w-full truncate rounded border !border-slate-200 !bg-slate-50 px-2 py-0.5 font-mono text-[10px] !text-slate-500">
