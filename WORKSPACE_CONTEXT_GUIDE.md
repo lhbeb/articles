@@ -52,6 +52,8 @@ Any relevant product card stored in the local `products/` folder may be used in 
 
 There is no longer an `ABDO-only` restriction for product-card inserts.
 
+Listings can be from `abdo`, but they can also come from other admin uploaders. A relevant listing should not be rejected just because its `listed_by` value is not `abdo`.
+
 ### Product Rotation Rule
 
 Do not keep inserting the same product card across every new article when multiple relevant product cards exist for the same item or topic.

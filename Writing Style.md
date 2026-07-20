@@ -361,6 +361,8 @@ For this project, when inserting a new product card inside an article, you may u
 
 This replaces the old `ABDO-only` restriction.
 
+Product cards can be from `abdo`, but they can also come from any other admin uploader. Do not filter out a relevant listing only because `listed_by` is not `abdo`.
+
 Use the best topical match available from the local product reference files or the latest product pull.
 
 Do not force an unrelated product card into an article just because it exists.
