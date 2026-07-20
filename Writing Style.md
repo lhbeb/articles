@@ -59,6 +59,29 @@ First 3 lines must follow this pattern:
 No long introductions.
 No background stories.
 
+After the opening hook, every article must include a compact answer-first summary near the top.
+
+This section should summarize the important points, golden nuggets, verdict, price/value guidance, and the reader's best next step in a short, straight-to-the-point format.
+
+Use a simple heading such as:
+
+- `Quick Take`
+- `Quick Verdict`
+- `Key Points`
+- `What You Need To Know`
+
+Keep it short and useful:
+
+- 3 to 6 bullets maximum
+- no fluff
+- no long explanations
+- no repeated intro text
+- answer the main search intent immediately
+
+Reason:
+
+Google and AI-assisted discovery prefer articles that make the core answer easy to extract. Readers also trust the article faster when the best information is not buried.
+
 ## 5. Structure For Readability
 
 - short paragraphs, one to three lines maximum
@@ -334,6 +357,30 @@ If the SEO data includes normal buyer queries, the article should cover those to
 If the SEO data shows repeated concerns, those concerns should become real editorial points, not hidden keywords.
 
 The goal is to help the article get indexed by matching real search intent while still sounding like a human wrote it for a reader.
+
+## 20.1 Answer-First SEO Summary Rule
+
+Every finished article should include an answer-first summary near the top of the article.
+
+This is not optional.
+
+The summary must compact the most important article points into short, scannable bullets before the full explanation begins.
+
+It should include the article's golden nuggets:
+
+- the direct answer
+- the best buying or usage advice
+- the most important warning
+- the strongest value point
+- the key comparison or decision rule
+
+Do not make this section generic.
+
+Do not write filler like “here are the key takeaways.”
+
+Use the article's actual best information.
+
+The purpose is better SEO, better reader retention, and stronger AI-answer extraction.
 
 ## Final Enforcement
 

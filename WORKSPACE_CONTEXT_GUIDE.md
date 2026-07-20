@@ -184,6 +184,38 @@ When writing an article about a product:
 
 The goal is to rank on Google while keeping the article high quality and human-readable.
 
+## Answer-First Summary Rule
+
+Every article should add the important points of the article near the top in a compact, summarized, straight-to-the-point section.
+
+This section should appear after the opening hook and before the deeper article body.
+
+Use a heading like:
+
+- `Quick Take`
+- `Quick Verdict`
+- `Key Points`
+- `What You Need To Know`
+
+The section should summarize the article's golden nuggets:
+
+- the direct answer to the main search query
+- the strongest verdict or recommendation
+- the key buying/value warning
+- the most useful comparison point
+- the reader's best next step
+
+Keep it short:
+
+- 3 to 6 bullets maximum
+- no fluff
+- no generic filler
+- no long paragraphs
+
+Reason:
+
+Google, readers, and AI-assisted discovery all benefit when the core answer is easy to extract at the top of the article. Do not bury the best information deep in the body.
+
 ## Product Context Workflow
 
 The top-level `products/` folder exists for future context.
@@ -502,8 +534,9 @@ When the user asks for an article:
 3. check the `products/` folder for relevant product-card candidates
 4. understand whether the article should be a review, comparison, viral news piece, tech news piece, or buyer guide
 5. write the article in a high-quality editorial style
-6. insert one to three product cards only where they genuinely fit
-7. make the value of the DB-backed offer obvious through reasoning, not force
+6. include a compact answer-first summary near the top with the article's key golden nuggets
+7. insert one to three product cards only where they genuinely fit
+8. make the value of the DB-backed offer obvious through reasoning, not force
 
 This file should be treated as a standing guide for future work in this workspace.
 
