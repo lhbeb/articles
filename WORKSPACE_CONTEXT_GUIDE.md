@@ -507,6 +507,44 @@ In short:
   - export wrapper fields are filled
   - the file is saved in the dated `New Articles/` subfolder
 
+### Article Export Integrity Rule
+
+An article export is not complete just because its JSON is valid.
+
+It must import into the blog with every paragraph, heading, social embed, and product card visible in the correct order.
+
+When editing an existing article JSON:
+
+- preserve both `content` and `html_output`
+- never make a small string replacement near HTML tags unless the complete before-and-after HTML has been inspected
+- keep article HTML as readable raw HTML
+- do not serialize tags such as `<p>`, `<h2>`, `<blockquote>`, or `<product-embed>` into Unicode escapes like `\u003c` and `\u003e`
+- never leave an unclosed HTML tag
+- do not include TikTok, X, or Twitter provider `<script>` tags in article exports
+- save only the supported social embed blockquote markup because the blog renderer handles provider scripts itself
+
+An unclosed `<script>` tag can cause every following section of the article to disappear.
+
+When adding a product card:
+
+- in `content`, use the exact shortcode:
+  `[product-card:slug]`
+- in `html_output`, use:
+  `<div><product-embed data-slug="slug"></product-embed></div>`
+
+Before declaring an article finished, verify:
+
+- the JSON parses successfully
+- `content` and `html_output` are both non-empty
+- all original headings are still present and in the same order
+- paragraphs immediately before and after the edited area still exist
+- no `<script>` tags remain
+- raw HTML tags are not Unicode-escaped
+- each product card is present in both `content` and `html_output`
+- the import or preview shows the entire article, not only the beginning and end
+
+Do not say an article is complete until every export integrity check passes.
+
 ### Article Insert Logic
 
 - use one to three product cards where appropriate
