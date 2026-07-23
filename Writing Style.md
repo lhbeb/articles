@@ -412,6 +412,43 @@ Use the extra space to add:
 
 Google quality indexing prefers articles that feel complete, useful, and substantial. Under-800-word articles should be treated as unfinished drafts.
 
+## 20.3 Article Category Slug Rule
+
+When generating article export JSON, the `category` field must use a canonical category slug.
+
+Do not use category display names or legacy aliases.
+
+Examples:
+
+- use `graphics-cards`, not `Graphics Cards`
+- use `gaming`, not `Gaming Consoles`
+- use `cameras`, not `Photography Tips`
+- use `audio`, not `Audio & Headphones`
+- use `laptops`, not `Laptops & PCs`
+- use `price-comparison`, not `Price Comparisons`
+
+Valid slugs:
+
+- `smartphones`
+- `laptops`
+- `graphics-cards`
+- `gaming`
+- `cameras`
+- `audio`
+- `wearables`
+- `tvs-displays`
+- `home-appliances`
+- `deals`
+- `buying-guides`
+- `price-comparison`
+- `news`
+- `automotive-tech`
+- `style-gear`
+
+When possible, also include `category_label` for readability.
+
+Do not validate or call an article export complete if `category` is not one of the valid slugs.
+
 ## Final Enforcement
 
 Keep it:

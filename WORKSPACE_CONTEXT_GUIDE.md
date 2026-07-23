@@ -511,6 +511,7 @@ In short:
   - `html_output`
   - `author`
   - `category`
+  - `category_label`
   - `image_url`
   - `read_time`
   - `published`
@@ -538,6 +539,73 @@ In short:
 - place the final article `.json` file inside that dated folder
 - each finished article export should have every field filled, including SEO fields
 - for `listed_by` and `author` or editor-related values, fill them randomly during generation because the user will manually edit them later in the admin CMS
+
+### Category Slug Rule
+
+Article JSON imports accept only canonical category slugs.
+
+The `category` field must be a slug, not a display name and not an old alias.
+
+Accepted:
+
+```json
+{
+  "category": "graphics-cards",
+  "category_label": "Graphics Cards"
+}
+```
+
+Rejected:
+
+```json
+{
+  "category": "Graphics Cards"
+}
+```
+
+Also rejected:
+
+```json
+{
+  "category": "photography-tips"
+}
+```
+
+Valid category slugs are:
+
+- `smartphones`
+- `laptops`
+- `graphics-cards`
+- `gaming`
+- `cameras`
+- `audio`
+- `wearables`
+- `tvs-displays`
+- `home-appliances`
+- `deals`
+- `buying-guides`
+- `price-comparison`
+- `news`
+- `automotive-tech`
+- `style-gear`
+
+Use `category_label` for the readable display label when available.
+
+Before validating an article export, verify that `category` exactly matches one valid slug from this list.
+
+Common mappings:
+
+- Graphics Cards -> `graphics-cards`
+- Gaming Consoles -> `gaming`
+- Cameras or Photography Tips -> `cameras`
+- Audio & Headphones -> `audio`
+- Laptops & PCs -> `laptops`
+- TVs & Displays -> `tvs-displays`
+- Home Appliances -> `home-appliances`
+- Buying Guide -> `buying-guides`
+- Price Comparisons -> `price-comparison`
+- Style & Gear -> `style-gear`
+- Automotive -> `automotive-tech`
 
 ### Article Completion Standard
 
@@ -585,6 +653,7 @@ When adding a product card:
 Before declaring an article finished, verify:
 
 - the JSON parses successfully
+- `category` is exactly one valid canonical category slug
 - `content` and `html_output` are both non-empty
 - all original headings are still present and in the same order
 - paragraphs immediately before and after the edited area still exist

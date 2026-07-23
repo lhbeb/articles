@@ -38,6 +38,7 @@ Top-level keys:
 - `html_output`
 - `author`
 - `category`
+- `category_label`
 - `image_url`
 - `read_time`
 - `published`
@@ -64,6 +65,65 @@ Top-level keys:
 - Keep the format aligned with existing root article exports
 - Fill `listed_by` and `author` randomly when generating the file
 - The user may later manually edit those values in the admin CMS
+
+## Category Slug Rule
+
+Article JSON imports now accept only canonical category slugs.
+
+The `category` field must be one of the valid slugs below, not a display name and not an old alias.
+
+Do not write category names such as:
+
+- `Graphics Cards`
+- `Gaming Consoles`
+- `Photography Tips`
+- `Audio & Headphones`
+
+Use the slug instead:
+
+- `graphics-cards`
+- `gaming`
+- `cameras`
+- `audio`
+
+For readability, also include `category_label` when possible.
+
+Example accepted:
+
+```json
+{
+  "category": "graphics-cards",
+  "category_label": "Graphics Cards"
+}
+```
+
+Example rejected:
+
+```json
+{
+  "category": "Graphics Cards"
+}
+```
+
+Valid category slugs:
+
+- `smartphones`
+- `laptops`
+- `graphics-cards`
+- `gaming`
+- `cameras`
+- `audio`
+- `wearables`
+- `tvs-displays`
+- `home-appliances`
+- `deals`
+- `buying-guides`
+- `price-comparison`
+- `news`
+- `automotive-tech`
+- `style-gear`
+
+Before validating an article export, verify that `category` is exactly one of these slugs.
 
 ## Minimum Article Length Rule
 
