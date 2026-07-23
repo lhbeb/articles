@@ -544,11 +544,18 @@ In short:
 - a newly written article is not considered fully finished unless its export JSON is complete
 - complete means:
   - article body is written
+  - reader-facing article body has at least 800 words total
   - SEO fields are filled
   - slug fields are filled
   - metadata fields are filled
   - export wrapper fields are filled
   - the file is saved in the dated `New Articles/` subfolder
+
+Do not validate, export, import, or say an article is complete if it is under 800 words.
+
+When counting words, include headings, paragraphs, list items, and meaningful visible reader-facing text. Exclude JSON keys, metadata fields, internal notes, shortcodes, HTML tags, scripts, and code.
+
+If an article is under 800 words, expand it with useful information such as FAQs, buying advice, comparisons, pricing context, product limitations, setup details, or real-world use cases. Do not add fluff just to hit the number.
 
 ### Article Export Integrity Rule
 

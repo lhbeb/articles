@@ -65,6 +65,21 @@ Top-level keys:
 - Fill `listed_by` and `author` randomly when generating the file
 - The user may later manually edit those values in the admin CMS
 
+## Minimum Article Length Rule
+
+Every finished article export must contain at least 800 words in the reader-facing article body.
+
+Do not validate, export, import, or say an article is complete if it is under 800 words.
+
+When counting words:
+
+- include headings, paragraphs, list items, and meaningful visible text
+- exclude JSON keys, metadata fields, internal notes, shortcodes, HTML tags, scripts, and code
+
+If the article is below 800 words, expand it with useful content such as FAQs, buying advice, comparisons, pricing context, limitations, setup details, or real-world use cases.
+
+Do not add filler just to reach 800 words.
+
 ## Article Export Integrity Rule
 
 An article export is not complete just because its JSON is valid.

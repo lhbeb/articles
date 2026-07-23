@@ -382,6 +382,36 @@ Use the article's actual best information.
 
 The purpose is better SEO, better reader retention, and stronger AI-answer extraction.
 
+## 20.2 Minimum Article Length Rule
+
+Every finished article must contain at least 800 words total.
+
+This is a hard quality and indexing rule.
+
+Do not validate, export, import, or say an article is complete if the total article body is under 800 words.
+
+Before finishing an article:
+
+- count the words in the reader-facing article body
+- include headings, paragraphs, list items, and meaningful visible text in the count
+- exclude JSON keys, metadata fields, internal notes, shortcodes, HTML tags, scripts, and code
+- expand the article with useful sections if it is below 800 words
+
+Do not pad with fluff just to hit 800 words.
+
+Use the extra space to add:
+
+- clearer buying advice
+- FAQs
+- comparison points
+- setup or usage details
+- pricing context
+- pros and cons
+- real limitations
+- product-card context when relevant
+
+Google quality indexing prefers articles that feel complete, useful, and substantial. Under-800-word articles should be treated as unfinished drafts.
+
 ## Final Enforcement
 
 Keep it:
