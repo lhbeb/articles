@@ -38,6 +38,49 @@ The goal is to make the reader feel:
 
 Do not make the article sound like an ad. The recommendation should feel earned by the content.
 
+## Thumbnail Prompt Response Rule
+
+When the user asks for a thumbnail prompt, says `thumbnail`, says `prompt for thumbnail`, or asks for thumbnail prompts after an article, future models should respond with three different thumbnail prompt modes by default:
+
+1. **Clicky Thumbnail**
+   - bold YouTube-style buyer-decision thumbnail
+   - strong emotion, high contrast, big readable hook text
+   - product large and sharp
+   - dramatic curiosity-gap composition
+
+2. **Editor/Author Face + Reviewed Item**
+   - use the writer/editor face with identity lock
+   - show the reviewed item clearly
+   - cleaner, premium, less noisy
+   - little to no text
+
+3. **Item-Only Stylish Thumbnail**
+   - no author/editor face
+   - focus only on the reviewed item or product
+   - stylish commercial composition
+   - dramatic but clean lighting
+   - no noisy text unless a price cue is necessary
+
+4. **Cutout Cascade / Printed Magazine Effect**
+   - include this optional fourth mode when the user attaches an item screenshot/image or asks to recreate a cutout look
+   - cut out the item/object and recreate it as multiple overlapping cutouts in a vertical or diagonal cascade
+   - use soft feathered edges, subtle halo bloom, cool teal/cyan desaturated grading, lifted blacks, milky whites, blue-to-cream gradient background, and uniform halftone/newsprint grain
+   - keep it stylish and editorial, with little to no text
+
+5. **Hero Subject + Motion Echo Poster**
+   - include this optional fifth mode when the attached image is a person, athlete, creator, model, or main subject
+   - cut out one large sharp hero subject in the foreground and keep it fully saturated in natural color
+   - add 2 smaller duplicate/echo versions of the same subject behind it, desaturated or duotone-tinted to one accent color
+   - blend background echoes into a radial or diagonal gradient wash with darker corners and a brighter center spotlight
+   - apply uniform fine grain or halftone print texture across the whole image
+   - optional soft-blurred mood graphics can be used when they match the article tone
+
+Do not only provide one thumbnail prompt unless the user explicitly asks for one.
+
+For face-based thumbnail modes, use the established identity-lock language from `thumbnail preference.md`.
+
+Identity lock applies only to the attached writer/editor image. Other attached images should be treated as product, result, tutorial, before/after, or style references.
+
 ## Product Card Strategy
 
 Inside many articles, insert one, two, or three product cards when they are contextually relevant.

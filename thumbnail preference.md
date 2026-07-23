@@ -337,6 +337,149 @@ Example filled prompt:
 identity lock, keep the same facial structure, same features, same face identity. Generate a thumbnail for this person for an article talking about “iPhone Camera vs Canon G7X Mark II: Which One Looks Better?” Also use the attached product image clearly. Not much text in the thumbnail.
 ```
 
+## Default Response Rule For Thumbnail Prompt Requests
+
+When the user asks for a thumbnail prompt, says `thumbnail`, says `prompt for thumbnail`, or asks for thumbnail prompts after an article, respond with three different thumbnail prompt modes by default.
+
+Do not only provide one prompt unless the user explicitly asks for one.
+
+The three default modes are:
+
+1. **Clicky Thumbnail**
+   - bold YouTube-style buyer-decision thumbnail
+   - strong emotion
+   - product large and sharp
+   - big readable hook text
+   - high contrast, dramatic lighting, curiosity gap
+
+2. **Editor/Author Face + Reviewed Item**
+   - use the writer/editor face with identity lock
+   - show the reviewed item clearly
+   - clean, premium, less noisy
+   - little to no text
+   - good for articles where trust and human review matter more than loud clickbait
+
+3. **Item-Only Stylish Thumbnail**
+   - no author/editor face
+   - focus only on the item, product, device, camera, console, bag, GPU, or reviewed object
+   - stylish commercial composition
+   - dramatic but clean lighting
+   - no noisy text unless a price cue is necessary
+   - useful when the product itself is strong enough to carry the image
+
+Optional fourth mode when the user attaches an item screenshot/image or asks to recreate a cutout look:
+
+4. **Cutout Cascade / Printed Magazine Effect**
+   - cut out the attached item or subject from the screenshot/image
+   - recreate the object as multiple isolated cutouts
+   - arrange the cutouts in a vertical or diagonal cascade
+   - use different scales, with the biggest cutout in the foreground and smaller cutouts receding behind it
+   - use soft feathered edges, subtle white/light halo bloom, and no hard vector-mask look
+   - use a cool teal/cyan desaturated grade, lifted blacks, milky whites, and muted pastel color
+   - place everything on a simple blue-to-cream gradient background
+   - apply uniform fine halftone/newsprint grain across the whole image
+   - add subtle global bloom to unify mismatched source lighting
+
+Use this fourth mode when the user specifically wants the final image-generation model to cut out an attached item, screenshot, product, person, or object and recreate a stylized editorial composite effect.
+
+Optional fifth mode when the attached image is a person, athlete, model, creator, or subject where the thumbnail should feel like a sports/editorial poster:
+
+5. **Hero Subject + Motion Echo Poster**
+   - cut out one large hero subject in the foreground
+   - keep the hero subject sharp, fully saturated, and in natural color
+   - duplicate or echo the same subject in 2 smaller background poses
+   - use the same person when possible, with different moments, poses, kits, or angles
+   - desaturate, monochrome-tint, or duotone-tint the background echoes
+   - blend background echoes softly into a radial or diagonal gradient wash
+   - use darker corners and a brighter center spotlight behind the hero subject
+   - add soft rim-light glow around the hero cutout
+   - apply uniform fine grain or halftone texture across the entire image
+   - optionally add soft-blurred mood graphics, such as hearts, sparks, light streaks, or accent icons, only when they match the article tone
+
+Use this fifth mode when the user wants the item/person image to become a stylish editorial poster with a large foreground hero and repeated background echoes.
+
+Every thumbnail prompt response should label these three modes clearly.
+
+If the fourth or fifth mode is relevant, label all relevant modes clearly.
+
+If an author/editor image is attached, apply identity lock only to that image.
+
+If other images are attached, treat them as product, result, tutorial, before/after, or style references. Do not apply identity lock to product/result/reference images.
+
+When writing the face-based modes, include this identity-lock sentence:
+
+```text
+identity lock, keep the same facial structure, same features, same face identity, same general age, same skin tone, same hairstyle, and any important features like glasses, beard, or hairline.
+```
+
+For pricing articles, include a short price cue or price tag in the clicky mode and item-only mode.
+
+For non-pricing articles, do not force price tags.
+
+## Cutout Cascade / Printed Magazine Effect Prompt Style
+
+Use this prompt style when the user attaches an item screenshot or image and wants the next AI image-generation model to cut out that object and recreate a stylized editorial effect.
+
+Technical style:
+
+- multiple cutout subjects or objects isolated from source images
+- vertical or diagonal cascade layout
+- overlapping layers from back to front
+- largest subject in the foreground, usually bottom-right
+- smallest/furthest subject in the background, usually top-left
+- off-center asymmetric arrangement
+- heads/shoulders crop only for people, no full bodies unless the object requires full-body context
+- soft slightly imprecise cutout edges
+- subtle feathered white/light halo bloom around cutout edges
+- no hard drop shadows
+- soft luminous separation between overlapping layers
+- edges slightly fade into each other at contact points
+- desaturated cool-toned palette pushed toward teal/cyan and muted pastels
+- skin tones, if any, shifted slightly cool/pink instead of warm orange
+- individual source colors preserved lightly but unified under the same muted low-contrast grade
+- lifted blacks, charcoal/navy shadows, milky whites
+- simple horizontal gradient background, light blue at top into soft off-white/cream bottom
+- subtle darker blue horizon band
+- flat background with no scenery detail
+- uniform fine halftone, dot-screen, or newsprint texture across both subjects and background
+- subtle global glow/bloom pass across the whole final composite
+- slight brightness push toward the top of the frame
+
+Reusable prompt:
+
+```text
+Use the attached item screenshot/image as the source object. Cut out the object with a soft feathered edge and subtle light halo bloom. Recreate it as multiple overlapping cutout copies arranged in an asymmetric vertical/diagonal cascade, smallest in the top-left background and largest in the bottom-right foreground. Use varied scale and partial overlap, with soft luminous separation instead of hard shadows. Desaturate and grade the whole image cool teal/cyan with muted pastel tones, lifted charcoal blacks, and milky whites. Place the cascade on a flat light-blue-to-cream gradient background with a subtle darker blue horizon band. Apply a uniform fine halftone/newsprint grain texture across the entire composite, including object and background. Add a subtle global bloom pass to unify lighting. No noisy text, no hard vector-mask edges, no realistic scenery, no harsh drop shadows.
+```
+
+## Hero Subject + Motion Echo Poster Prompt Style
+
+Use this prompt style when the user attaches a person, athlete, model, creator, or main subject image and wants a sport-style editorial poster effect.
+
+Technical style:
+
+- one large hero cutout centered or foreground
+- hero subject sharply in focus
+- hero subject kept in full natural color and saturation
+- two or more smaller duplicate/echo images of the same subject in the background
+- background echoes can use different poses, moments, kits, expressions, or angles when available
+- background echoes should flank the hero subject symmetrically or asymmetrically
+- background echoes are desaturated, monochrome, heavily tinted, or duotone-tinted to match one accent color
+- background echoes have softer edges and lower opacity than the hero subject
+- background echoes blend into the color wash
+- hero subject has a clean sharp cutout with subtle rim light or edge glow
+- radial or diagonal gradient background, darker at corners and brighter behind the hero subject
+- no literal scenery or location detail
+- strong foreground/background scale contrast
+- slight vignette around the frame edges
+- uniform fine grain, film grain, halftone dots, or print-poster texture across the whole composite
+- optional soft-blurred graphic overlays for mood, such as hearts, sparks, streaks, or accent icons
+
+Reusable prompt:
+
+```text
+Use the attached subject image as the main reference. Cut out the main subject with a sharp clean edge and subtle rim-light glow, keep the hero subject fully saturated, natural color, and sharply in focus. Create 2 smaller duplicate or echo versions of the same subject in the background, using different poses or moments if available. Desaturate or duotone-tint the background echoes to match one accent color, lower their opacity, and blend their soft edges into a radial or diagonal gradient backdrop. Make the background darker at the corners and brighter behind the hero subject, like a center spotlight. Scale the hero subject much larger than the background echoes so it feels like the subject is bursting forward. Apply uniform fine grain or halftone print texture across the whole image. Optional: add soft-blurred mood graphics or accent icons only if they fit the article tone. No scenery, no hard shadows, no flat sticker look, no noisy text.
+```
+
 ## Minimal Text Rule
 
 When the prompt says "not much text", use only a short hook.
