@@ -118,19 +118,32 @@ The product cards that live in the DB are special:
 
 - they are usually rare deals
 - they are often private or unusually hard to find
-- they are typically around 40% below market price
-- they are often even below the normal resale price
+- they should be treated as the source of truth for the listing details available in the local product data
+- they may sell out quickly
+- they should be checked first when they match the article topic
+- if the embedded product is sold out, look for other relevant product-card deals because a better available listing may exist
 
 Because of that, these are not normal affiliate products. They should be framed as:
 
 - exclusive deals
 - unusually strong value opportunities
-- must-grab offers when truly relevant
-- deals that serious buyers should not ignore
+- must-check or must-snipe opportunities when truly relevant
+- rare listings that serious buyers should check before looking elsewhere
 
 However, this must never be forced into the article unnaturally.
 
 The article should lead the reader to that conclusion through context, price reality, demand, scarcity, comparison, or market behavior.
+
+Do not write fixed discount claims such as "40% off," "40% below market," or similar percentage-off language unless that exact discount has been verified against current market pricing.
+
+Without verification, use safer framing:
+
+- rare deal
+- strong listing
+- worth checking first
+- could sell out quickly
+- compare it against current market prices before buying
+- if it is sold out, check other related product cards for a better available deal
 
 ## How to Frame Deal Inserts
 
@@ -141,11 +154,15 @@ When inserting a DB-backed product card:
 - explain why it is notable
 - connect it to the topic of the article
 - support the insert with logic like resale value, market shortage, buyer demand, rarity, specs, condition, or price advantage
+- treat the product card itself as the source of truth for the listing details
+- avoid exact savings or percentage claims unless independently verified
+- if a referenced product card is sold out, search for another relevant available product-card deal instead of pretending the sold-out listing is still available
 
 Avoid:
 
 - aggressive sales language
 - obvious hype with no support
+- unverified percentage-off claims
 - repetitive CTA-heavy writing
 - making every article sound like the same pitch
 
@@ -668,7 +685,9 @@ Do not say an article is complete until every export integrity check passes.
 
 - use one to three product cards where appropriate
 - only insert cards that strengthen the article
-- frame them as rare, valuable, and worth attention
+- frame them as rare, valuable, and worth checking first
+- do not claim exact percentage discounts unless verified
+- if a deal is sold out, look for other relevant product-card deals that may still be available
 - do not force them if the fit is weak
 
 ## What Future Models Should Remember
@@ -677,6 +696,7 @@ If you are a future AI model working in this workspace, remember:
 
 - this is not just a blog, it is an editorial + conversion system
 - the product cards in the DB are unusually strong deal assets
+- product cards are the source of truth for listing details, but exact discount claims still need verification
 - the writing should make readers trust the recommendation
 - the recommendation should feel discovered, not pushed
 - keyword files and product files are part of the long-term memory of this workspace

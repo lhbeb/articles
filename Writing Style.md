@@ -481,6 +481,43 @@ Use the best topical match available from the local product reference files or t
 
 Do not force an unrelated product card into an article just because it exists.
 
+## 22.1 Product Card Deal Framing Guardrail
+
+Treat product cards as the source of truth for the listing details available in the local product data.
+
+When a product card matches the article topic, check it first and treat it as a serious deal candidate.
+
+Frame relevant product cards as:
+
+- rare listings
+- must-check deals
+- must-snipe opportunities when demand is high
+- listings that may sell out quickly
+- deals worth checking before broader marketplaces
+
+If a product-card deal is sold out, do not keep writing as if it is available.
+
+Look for other relevant product-card deals because a better available listing may exist.
+
+Do not write fixed discount claims such as:
+
+- `40% off`
+- `40% below market`
+- `half price`
+- exact savings percentages
+
+Only use exact discount or savings claims when verified against current market pricing.
+
+Without verification, use safer language:
+
+- strong deal
+- rare listing
+- worth checking first
+- compare against current market pricing
+- may sell out quickly
+
+The article should sound confident, but not careless.
+
 ## 23. Product Card Rotation Rule
 
 When multiple relevant product cards exist for the same article topic, do not keep reusing the same product card by default.
