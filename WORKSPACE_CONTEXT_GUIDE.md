@@ -206,6 +206,28 @@ Future models should understand that this blog can publish several styles of con
 
 Use when the article is centered on one item and answers whether it is worth buying, still relevant, overhyped, underrated, profitable to resell, or good for a certain use case.
 
+For product reviews, buying guides, “worth it” articles, and any article that helps a customer decide whether to buy an item, include a styled buy/skip tag block directly in the article HTML.
+
+Use this structure:
+
+```html
+<h2>Who Should Buy Them</h2>
+<div class="tags">
+  <span class="tag buy">✓ Outstanding 40.2MP image quality</span>
+  <span class="tag buy">✓ Built-in 6-stop IBIS</span>
+  <span class="tag skip">✗ Stock is frequently sold out</span>
+  <span class="tag skip">✗ Higher price tag than previous generation</span>
+</div>
+```
+
+Use `tag buy` for pros and good-fit buyers.
+
+Use `tag skip` for cons, warnings, and wrong-fit buyers.
+
+Keep tags short, specific, truthful, and useful for product review schema and reader scanning.
+
+Do not include unverified claims in the tags.
+
 ### 2. Product Comparisons
 
 Use when the article compares two or more products, generations, models, or buying paths.
@@ -672,6 +694,7 @@ Before declaring an article finished, verify:
 - the JSON parses successfully
 - `category` is exactly one valid canonical category slug
 - `content` and `html_output` are both non-empty
+- buying guides, product reviews, and “worth it” articles include a `<div class="tags">` buy/skip block
 - all original headings are still present and in the same order
 - paragraphs immediately before and after the edited area still exist
 - no `<script>` tags remain

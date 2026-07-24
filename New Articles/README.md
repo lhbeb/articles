@@ -169,6 +169,8 @@ Before declaring an article finished, verify:
 
 - the JSON parses successfully
 - `content` and `html_output` are both non-empty
+- buying guides, product reviews, and “worth it” articles include a styled buy/skip tag block:
+  `<div class="tags"><span class="tag buy">...</span><span class="tag skip">...</span></div>`
 - all original headings are still present and in the same order
 - paragraphs immediately before and after the edited area still exist
 - no `<script>` tags remain

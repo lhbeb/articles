@@ -179,6 +179,7 @@ The writing should feel human, not generated.
 - give verdict early
 - include pros and cons quickly
 - speak from usage, not specs
+- include a styled buy/skip tag block in the article HTML when the article helps readers decide whether to buy the item
 
 ### Comparisons
 
@@ -191,6 +192,33 @@ The writing should feel human, not generated.
 - first sentence equals key information
 - focus on what changed and why it matters
 - no personal opinions
+
+### Buying Guides And Product Review Schema Tags
+
+When writing a buying guide, product review, “worth it” article, or any article about whether a customer should buy an item, include a styled pros/cons tag block directly in the article HTML.
+
+Use this structure:
+
+```html
+<h2>Who Should Buy Them</h2>
+<div class="tags">
+  <span class="tag buy">✓ Outstanding image quality</span>
+  <span class="tag buy">✓ Strong value if the price is right</span>
+  <span class="tag skip">✗ Stock is frequently sold out</span>
+  <span class="tag skip">✗ Higher price than older models</span>
+</div>
+```
+
+Rules:
+
+- use `tag buy` for pros, good-fit buyers, and reasons to buy
+- use `tag skip` for cons, wrong-fit buyers, warnings, and reasons to avoid
+- keep each tag short and specific
+- use 2 to 4 buy tags and 2 to 4 skip tags when possible
+- place the block near the top after the quick verdict, or before the main buying recommendation
+- make the tags truthful and specific to the product
+- do not use unverified claims inside the tags
+- do not stuff keywords into the tags
 
 ## 14. What To Avoid
 
